@@ -41,11 +41,9 @@ elif y==z:
 #I think (2.the greatest showman) could've been done in a shorter version. ^ 
 
 #3. Leap Year Explorer
-    #Task 1: Leap Year Checker
+#Task 1: Leap Year Checker
 leap_year = int(input("Find out whether or not your year input is a leap year, input a year:"))
-if (leap_year % 4 == 0 and leap_year % 100 != 0):
-    print("this is a leap year!")
-elif leap_year % 400 == 0:
+if (leap_year % 4 == 0 and leap_year % 100 != 0) or (leap_year % 400 == 0):
     print("this is a leap year!")
 else:
     print("this is not a leap year.")
